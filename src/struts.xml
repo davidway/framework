@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 为简化框架,package的属性都没有实现;而且所有的元素都是简化版的 -->
+<struts>
+	<package>
+		<action name="hello" method="hello"
+			class="com.leo.action.HelloAction">
+			<result name="success">/index.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,17 @@
+<%@ page language="java" import="java.util.*,java.io.*"
+	pageEncoding="UTF-8"%>
+
+<%
+	out.print("request.getContextPath(): " + request.getContextPath() + "<br />");
+	out.print("request.getPathInfo(): " + request.getPathInfo() + "<br />");
+	out.print("request.getPathTranslated(): " + request.getPathTranslated() + "<br />");
+	out.print("request.getQueryString(): " + request.getQueryString() + "<br />");
+	out.print("request.getRequestedSessionId(): " + request.getRequestedSessionId() + "<br />");
+	out.print("request.getRequestURI(): " + request.getRequestURI() + "<br />");
+	out.print("request.getServletPath(): " + request.getServletPath() + "<br />");
+	out.print("request.getRequestURL(): " + request.getRequestURL() + "<br />");
+ %>
+ 
+ ${message}
+
+
